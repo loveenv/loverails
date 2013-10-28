@@ -1,4 +1,7 @@
 Loverails::Application.routes.draw do
+  resources :pins
+
+
   devise_for :installs
 
   devise_for :users
